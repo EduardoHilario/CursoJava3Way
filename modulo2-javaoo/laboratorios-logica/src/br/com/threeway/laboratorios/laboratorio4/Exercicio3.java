@@ -10,8 +10,8 @@ public class Exercicio3 {
 		Arrays.sort(vetor);
 
 		invertaSeNecessario(vetor, 0, 1);
-		invertaSeNecessario(vetor, 1, 2);
 		invertaSeNecessario(vetor, 0, 2);
+		invertaSeNecessario(vetor, 1, 2);
 	}
 
 	private static void invertaSeNecessario(double[] vetor, int i, int j) {
